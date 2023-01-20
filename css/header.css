@@ -1,0 +1,136 @@
+.search{
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(158, 158, 158);
+  border-radius: 2px;
+  width: 0;
+  box-shadow: inset 1px 2px 5px rgb(0, 0, 0,0.05);
+}
+.search::placeholder{
+  font-family: Roboto,Arial;
+  
+}
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style:solid ;
+  z-index: 100;
+  border-bottom-color:rgb(221, 221, 221) ;
+}
+.leftsection{
+  align-items: center;
+  display: flex;
+  
+}
+.centersection{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  display: flex;
+  max-width: 500px;
+  align-items: center;
+  flex-direction: row;
+}
+.menubtn{
+  height: 25px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.youtubelogo{
+  height: 20px;
+}
+.rightsection{
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.serachbtn{
+ width: 60px;
+ height: 40px;
+ background-color: rgb(233, 233, 233);
+  border-width: 1px;
+  border-color: rgb(190, 188, 188);
+  margin-left: -1px;
+  margin-right: 10px;
+}
+
+.voicebtn{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(247, 247, 247);
+
+}
+.searchIcon{
+  height: 20px;
+  margin-top: 4px;
+  height: 25px;
+}
+
+.voiceIcon{
+  height: 20px;
+  margin-top: 4px;
+}
+
+.upload{
+  height: 24px;
+}
+.apps{
+  height: 24px;
+}
+.notifications{
+  height: 24px;
+}
+.channel{
+  height: 24px;
+  border-radius: 12px;
+
+}
+
+.sidebar{
+  background-color: white;
+  left: 0px;
+  bottom: 0px;
+  top: 100px;
+  width: 70px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.s{
+  width: 35px;
+  height: 35px;
+}
+
+.subText{
+  font-size: 10px;
+  margin: 0;
+  margin-top: 5px;
+  font-family: Roboto,Arial;
+}
+
+.subMenu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
